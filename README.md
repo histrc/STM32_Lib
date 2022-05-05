@@ -21,6 +21,6 @@
 13.  software_SPI    ——>  【STM32】HAL库在7针脚0.96寸OLED屏上的移植---软件SPI（二）
 
 
-#### 特技
 
-如果觉得方案对您有帮助，帮忙点个star吧! :laughing: 
+
+#### 如果觉得方案对您有帮助，帮忙点个star吧! :laughing: 
