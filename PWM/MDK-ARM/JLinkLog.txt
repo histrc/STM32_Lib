@@ -1,0 +1,27 @@
+
+T5690 000:597 SEGGER J-Link V4.86b Log File (0001ms, 0267ms total)
+T5690 000:597 DLL Compiled: Jun 27 2014 20:11:00 (0001ms, 0267ms total)
+T5690 000:597 Logging started @ 2021-07-24 19:34 (0001ms, 0267ms total)
+T5690 000:598 JLINK_SetWarnOutHandler(...) (0000ms, 0267ms total)
+T5690 000:598 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Dec 13 2019 11:14:50
+Hardware: V9.40
+S/N: 59406895
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash  returns O.K. (0265ms, 0532ms total)
+T5690 000:863 JLINK_SetErrorOutHandler(...) (0000ms, 0532ms total)
+T5690 000:863 JLINK_ExecCommand("ProjectFile = "D:\STM32CubeMx\PWM\MDK-ARM\JLinkSettings.ini"", ...)  returns 0x00 (0000ms, 0532ms total)
+T5690 000:864 JLINK_ExecCommand("Device = STM32F103RC", ...)Device "STM32F103RC" selected (256 KB flash, 48 KB RAM).  returns 0x00 (0002ms, 0534ms total)
+T5690 000:866 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0534ms total)
+T5690 000:866 JLINK_GetHardwareVersion()  returns 0x16F30 (0000ms, 0534ms total)
+T5690 000:866 JLINK_GetDLLVersion()  returns 48602 (0000ms, 0534ms total)
+T5690 000:866 JLINK_GetFirmwareString(...) (0000ms, 0534ms total)
+T5690 000:875 JLINK_GetDLLVersion()  returns 48602 (0000ms, 0534ms total)
+T5690 000:875 JLINK_GetCompileDateTime() (0000ms, 0534ms total)
+T5690 000:890 JLINK_GetFirmwareString(...) (0000ms, 0534ms total)
+T5690 000:891 JLINK_GetHardwareVersion()  returns 0x16F30 (0000ms, 0534ms total)
+T5690 000:911 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0000ms, 0534ms total)
+T5690 000:911 JLINK_SetSpeed(20000) (0000ms, 0534ms total)
+T5690 000:911 JLINK_GetId() >0x108 TIF> >0x108 TIF>STM32Fxxxx: Cannot attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>  returns 0x00000000 (0509ms, 1043ms total)
+T5690 002:774 JLINK_Close() (0000ms, 1043ms total)
+T5690 002:774  (0000ms, 1043ms total)
+T5690 002:774 Closed (0000ms, 1043ms total)
