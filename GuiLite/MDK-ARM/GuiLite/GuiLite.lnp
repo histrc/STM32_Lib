@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"guilite\startup_stm32f103xe.o"
+"guilite\oled_1.o"
+"guilite\uicode.o"
+"guilite\main.o"
+"guilite\gpio.o"
+"guilite\i2c.o"
+"guilite\stm32f1xx_it.o"
+"guilite\stm32f1xx_hal_msp.o"
+"guilite\stm32f1xx_hal_gpio_ex.o"
+"guilite\stm32f1xx_hal_i2c_1.o"
+"guilite\stm32f1xx_hal_tim.o"
+"guilite\stm32f1xx_hal_tim_ex.o"
+"guilite\stm32f1xx_hal.o"
+"guilite\stm32f1xx_hal_rcc.o"
+"guilite\stm32f1xx_hal_rcc_ex.o"
+"guilite\stm32f1xx_hal_gpio.o"
+"guilite\stm32f1xx_hal_dma.o"
+"guilite\stm32f1xx_hal_cortex.o"
+"guilite\stm32f1xx_hal_pwr.o"
+"guilite\stm32f1xx_hal_flash.o"
+"guilite\stm32f1xx_hal_flash_ex.o"
+"guilite\stm32f1xx_hal_exti.o"
+"guilite\system_stm32f1xx.o"
+--strict --scatter "GuiLite\GuiLite.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "GuiLite.map" -o GuiLite\GuiLite.axf
