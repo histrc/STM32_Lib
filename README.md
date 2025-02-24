@@ -14,4 +14,4 @@
 13.  USART    ——>     【STM32】HAL库——串口通信(一)
 14.  USART2    ——>    【STM32】HAL库——串口中断通信(二)
 15.  software_SPI    ——>  【STM32】HAL库在7针脚0.96寸OLED屏上的移植---软件SPI（二）
- 
+16.crc-lib-c --->crc校验库
